@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="tophead"><h1>Tic Tac Toe</h1></div>
+
+  <form action="">
+    <div id="result">Let's See Who Wins</div>
+    <div class="lines">
+      <div id="column" class="column"></div>
+      <div id="row" class="row"></div>
+      <div id="diag" class="diag"></div>
+    </div>
+    <div class="allbtns">
+      <input type="button" class="btns" value="" onclick="handleClick(0)" />
+      <input type="button" class="btns" value="" onclick="handleClick(1)" />
+      <input type="button" class="btns" value="" onclick="handleClick(2)" />
+      <input type="button" class="btns" value="" onclick="handleClick(3)" />
+      <input type="button" class="btns" value="" onclick="handleClick(4)" />
+      <input type="button" class="btns" value="" onclick="handleClick(5)" />
+      <input type="button" class="btns" value="" onclick="handleClick(6)" />
+      <input type="button" class="btns" value="" onclick="handleClick(7)" />
+      <input type="button" class="btns" value="" onclick="handleClick(8)" />
+    </div>
+    <button class="Resetbtn" onclick="resetGame()">Reset</button>
+  </form>
+
+  <script src="./script.js"></script>
+</body>
+</html>
